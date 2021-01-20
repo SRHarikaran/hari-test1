@@ -1,7 +1,7 @@
 import './App.css';
 import HomePage from './pages';
 
-// Hook
+// Hook -1
 function App() {
   return (
     <HomePage />
