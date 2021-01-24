@@ -36,3 +36,78 @@
     transform: rotate(360deg);
   }
 }
+
+.cal-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.numberpad {
+  display: flex;
+  flex-direction: row;
+  height: 366px;
+}
+.calculator{
+  border: 1px solid black;
+  width: 402px;
+  height: 516px;
+}
+.results{
+  height: 148px;
+  border: 1px solid black;
+  border-bottom: 0px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+
+}
+.exp{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 80px;
+  border-bottom: 1px solid #ACB1A1;
+  width: 100%;
+}
+.res{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 60px;
+  width: 100%;
+}
+.number{
+  width: 300px;
+  height: 100%;
+}
+.symbol{
+  width: 98px;
+  height: 100%;
+}
+.numrow{
+  display: flex;
+  flex-direction: row;
+  
+}
+.num{
+  width: 100px;
+  height: 90px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+.sym{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  width: 100px;
+  height: 59px;
+  border: 1px solid black;
+
+}
+
+
