@@ -1,6 +1,7 @@
 import React from 'react';
 import Display from '../components/display';
 
+// Home Page.
 class HomePage extends React.Component {
   constructor() {
     super();
