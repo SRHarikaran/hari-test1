@@ -46,7 +46,6 @@
 .numberpad {
   display: flex;
   flex-direction: row;
-  height: 366px;
 }
 .calculator{
   border: 1px solid black;
@@ -130,4 +129,38 @@
   width: 100%;
   margin-left: 20px;
   color: #61dafb;
+}
+
+.m-calculator{
+  border: 1px solid black;
+}
+.m-number{
+  height: 100%;
+}
+.m-symbol{
+  height: 100%;
+}
+.m-num{
+  height: 90px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  cursor: pointer;
+}
+.m-sym{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  height: 57px;
+  border: 1px solid black;
+  cursor: pointer;
+
+}
+
+.m-actionBtn{
+  margin-top:30px ;
+  display: flex;
 }
