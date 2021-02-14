@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import BackspaceIcon from '@material-ui/icons/Backspace';
+import Header from '../../components/header';
 
 function CalculatorPage() {
   const [expresion, setExpresion] = useState('');
@@ -47,6 +48,7 @@ function CalculatorPage() {
 
   return (
     <div className="cal-wrapper" >
+      <Header/>
         <h2>Calculator</h2>
         <div className="calculator">
             <div className="results">

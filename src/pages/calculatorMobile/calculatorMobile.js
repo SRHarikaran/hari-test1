@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import BackspaceIcon from '@material-ui/icons/Backspace';
 import { Grid } from '@material-ui/core';
+import Header from '../../components/header';
 
 function CalculatorMobilePage() {
   const [expresion, setExpresion] = useState('');
@@ -55,6 +56,7 @@ function CalculatorMobilePage() {
 
   return (
     <div className="cal-wrapper" >
+      <Header/>
         <h2>Calculator</h2>
         <Grid className="m-calculator" style={{width: '80%',maxWidth: 490}}>
             <div className="results">

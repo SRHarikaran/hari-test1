@@ -8,6 +8,7 @@ import {
 
 import './App.css';
 import HomePage from './pages';
+import LandingPage from './pages/landing';
 import CalculatorPage from './pages/calculator/calculator';
 import CalculatorMobilePage from './pages/calculatorMobile/calculatorMobile';
 import TestPage from './pages/test/test';
@@ -18,6 +19,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={() => <HomePage />} />
+        <Route exact path="/landing" component={() => <LandingPage />} />
         <Route exact path="/calculator" component={() => <CalculatorPage />} />
         <Route path="/calculator/mobile" component={() => <CalculatorMobilePage /> } />
         <Route path="/test" component={() => <TestPage />} />
