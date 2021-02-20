@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../components/header'
+import Profile from '../../components/intro/profile';
 
 // Home Page.
 class landpage extends React.Component {
@@ -14,6 +15,7 @@ class landpage extends React.Component {
     return (
       <div>
         <Header />
+        <Profile/>
       </div>
     )
   }
