@@ -205,3 +205,19 @@
   height: 100%;
 }
 
+.product-form{
+  display: flex;
+  justify-content: center;
+  margin-top: 24px!important;
+  max-width: 400px;
+}
+
+.form-item{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+.form-wrapper{
+  display: flex;
+  justify-content: center;
+}

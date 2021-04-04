@@ -17,6 +17,7 @@ const header = (props) => {
         </Typography>
         <Button color="inherit" style={style.btnStyle} onClick={() => props.history.push('/calculator')}>Calculator</Button>
         <Button color="inherit" style={style.btnStyle} onClick={() => props.history.push('/calculator/mobile')}>CalculatorMobile</Button>
+        <Button color="inherit" style={style.btnStyle} onClick={() => props.history.push('/product/create')}>Product</Button>
       </Toolbar>
     </AppBar>
   );
